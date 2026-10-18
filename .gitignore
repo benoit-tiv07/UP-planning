@@ -1,0 +1,6 @@
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Documentation Sphinx générée
+docs/build/
