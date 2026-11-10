@@ -1,12 +1,29 @@
+
 Documentation du code Python
 ============================
 
+Module M3 : Services enseignants et bilans par formation
+---------------------------------------------------------
+
+Ce module permet de calculer les heures d'enseignement des enseignants,
+de regrouper les heures par formation et de calculer les totaux généraux.
+
 Calcul des heures équivalent TD
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Cette fonction calcule les heures équivalent TD d'un enseignement
-à partir des heures de cours, de TD, de TP et de contrôle de TP.
+.. autofunction:: calculs_heures.calculer_hetd
 
-.. automodule:: calculs_heures
-   :members:
-   :undoc-members:
+Calcul du service enseignant
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. autofunction:: calculs_heures.calculer_service
+
+Bilans par formation
+^^^^^^^^^^^^^^^^^^^^
+
+.. autofunction:: calculs_heures.calculer_bilans_par_formation
+
+Total général
+^^^^^^^^^^^^^
+
+.. autofunction:: calculs_heures.calculer_total_general
