@@ -1,9 +1,5 @@
 import os
 import sys
-from pathlib import Path
-
-# Sources personnelles Le Prince (indépendantes du répertoire M3).
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "Le_Prince"))
 
 # Chemin vers les modules Python du projet
 sys.path.insert(

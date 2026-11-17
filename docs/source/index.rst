@@ -17,4 +17,3 @@ Modules du projet
    :caption: Documentation
 
    content/code
-   content/extraction_ade
